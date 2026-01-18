@@ -1,5 +1,5 @@
 //SPDX-License-identifier: MIT
-pragma solidity >=0.8.24;
+pragma solidity 0.8.24;
 
 import "@oz/contracts/access/Ownable.sol";
 import "@oz/contracts/proxy/utils/Initializable.sol";

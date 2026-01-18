@@ -1,5 +1,5 @@
 //SPDX-License-identifier: MIT
-pragma solidity ^0.8.20;
+pragma solidity 0.8.24;
 
 interface ISmartWallet {
     struct Call {
@@ -16,7 +16,6 @@ interface ISmartWallet {
     event MetaTxExecuted(address indexed signer, address indexed target, uint256 value, bytes data);
 
     // ERRORS
-    error NotAuthorized();
     error ExecutionFailed();
     error InvalidSignature();
     error SignatureExpired();

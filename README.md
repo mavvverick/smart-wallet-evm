@@ -2,6 +2,8 @@
 
 **A hyper-optimized, seedless Smart Contract Wallet protocol built for Ethereum L1.**
 
+[![Tests](https://github.com/mavvverick/smart-wallet-evm/actions/workflows/test.yml/badge.svg)](https://github.com/mavvverick/smart-wallet-evm/actions/workflows/test.yml)
+
 This repository contains the smart contracts for a Passkey-powered wallet system designed for extreme gas efficiency. By utilizing the **Proxy Factory pattern**, the protocol achieves deployment costs on Ethereum Mainnet that are comparable to Layer 2 solutions.
 
 ---
