@@ -10,6 +10,7 @@ import "@oz/contracts/utils/cryptography/WebAuthn.sol";
 import "src/interface/ISmartWallet.sol";
 
 /// @title SmartWallet
+/// @author Mavvverick
 /// @notice Minimal smart contract wallet with passkey (WebAuthn) support
 /// @notice Supports ERC-1271 (for EOAs), WebAuthn meta-transactions, batch calls
 /// @dev Designed to be deployed via minimal proxy (EIP-1167)
