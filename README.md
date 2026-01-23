@@ -4,7 +4,7 @@
 
 [![Tests](https://github.com/mavvverick/smart-wallet-evm/actions/workflows/test.yml/badge.svg)](https://github.com/mavvverick/smart-wallet-evm/actions/workflows/test.yml)
 
-This repository contains the smart contracts for a Passkey-powered wallet system designed for extreme gas efficiency. By utilizing the **Proxy Factory pattern**, the protocol achieves deployment costs on Ethereum Mainnet that are comparable to Layer 2 solutions.
+This repository contains the smart contracts for a Passkey powered wallet system designed for extreme gas efficiency. By utilizing the **Proxy Factory pattern**, the protocol achieves deployment costs on Ethereum Mainnet that are comparable to Layer 2 solutions.
 
 ---
 
@@ -20,9 +20,9 @@ The entire system was deployed and verified on Ethereum Mainnet for under a doll
 
 ## ✨ Key Features
 
-- **Passkey Authentication:** Uses WebAuthn (P256) signatures. No seed phrases, no private key management for the user—just biometrics or hardware keys.
+- **Passkey Authentication:** Uses WebAuthn (P256) signatures. No seed phrases, no private key management for the user biometrics or hardware keys.
 - **Minimal Proxy Architecture:** Leverages ERC-1167 to keep individual wallet deployment costs at roughly cheaper on L1.
-- **Modular Foundry Setup:** Built with **Rust-based Foundry** for blazing-fast testing and gas-optimized compilation.
+- **Modular Foundry Setup:** Built with **Rust-based Foundry** for blazing fast testing and gas optimized compilation.
 
 ---
 
